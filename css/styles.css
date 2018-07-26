@@ -1,0 +1,225 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    /* The image used */
+    background: url("../images/IMG_0030websize.jpg") top no-repeat;
+    background-size: 1370px;
+    margin:0;
+}
+
+body.blackbg {
+  background: url(../images/kid.jpg) no-repeat center center fixed;
+  background-size: 1970px;
+}
+
+body.whitebg{
+
+}
+
+header a{
+  margin-top: 36px;
+  color: #A0522D;
+  margin:0;
+}
+
+article{
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+p{
+  font-family: Century;
+  font-size: 15px;
+}
+
+article img, h1, p{
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+nav{
+  text-align: center;
+  width: 1280px;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 220px;
+}
+
+#container{
+  width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#drawpage{
+  width: 1211px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logo{
+  text-align: left;
+  margin-top: 240px;
+  margin-left: 111px;
+}
+
+.imglink{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 128px;
+}
+
+.image-link img {
+    vertical-align: middle;
+}
+
+#randomimage{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+#biocontainer{
+  width: 600px;
+}
+
+.gotop img{
+  vertical-align: text-top;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+#second1{
+  position:absolute; top:155px; z-index:1;
+}
+
+#third2{
+  position:absolute; top:345px; z-index:2;
+}
+
+nav li{
+  list-style-type: none;
+  color: #a4907b;
+  font-size: 28px;
+  font-family: ebrima;
+  margin-left: 508px;
+}
+
+#fixednav{
+  position:fixed;
+  top:40px;
+  right:-180px;
+}
+
+a {
+  text-decoration: none;
+  color: #A0522D;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.worklink{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 36px;
+    margin-bottom: -18px;
+    margin-right: 25px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.drawcontainer {
+  position: relative;
+  width: 717px;
+  margin: 0 auto;
+}
+
+/* Hide the images by default */
+.artSlides {
+  display: none;
+  text-align: center;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.demo {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 42%;
+  margin-right: -226px;
+  margin-left: 4px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+video{
+  margin-top: 77px;
+  margin-left: 26px;
+}
